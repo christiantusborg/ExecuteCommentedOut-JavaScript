@@ -1,0 +1,20 @@
+ 
+
+ <script id="CommentedOutJavaScript"> 
+/*
+alert("hello world")
+*/
+
+ </script>
+
+
+ <script id="OtherCommentedOutJavaScript"> 
+/*
+alert("why not me?")
+*/
+
+ </script>
+<script type="text/javascript">
+ (eval)(document.getElementById("CommentedOutJavaScript").innerHTML.replace(/^[\s\xA0]+\/\*|\*\/[\s\xA0]+$/g, ""));
+
+ </script>
